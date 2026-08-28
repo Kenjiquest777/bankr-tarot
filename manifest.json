@@ -1,0 +1,47 @@
+{
+  "slug": "bankr-tarot",
+  "title": "BANKR Tarot",
+  "description": "A cute daily tarot reader. Pulls a three-card spread — your day's luck, your trade strategy, and the token that matches your tarot energy — seeded fresh each day from your wallet. The token card shows a live price pulled from real market data.",
+  "visibility": "public",
+  "version": 7,
+  "permissions": [
+    "fetch:http"
+  ],
+  "scripts": [
+    "tokenPrice"
+  ],
+  "publicScripts": [
+    "tokenPrice"
+  ],
+  "publicScriptLimits": [
+    {
+      "name": "tokenPrice",
+      "value": {
+        "maxChainReads": 0,
+        "maxExecMs": 3000,
+        "maxHttpCalls": 1,
+        "maxReturnBytes": 1024,
+        "perAppRateLimit": {
+          "rph": 1000
+        },
+        "perViewerRateLimit": {
+          "rph": 100,
+          "rpm": 10
+        }
+      }
+    }
+  ],
+  "assets": [],
+  "publicDataKeys": [],
+  "secrets": [],
+  "schedule": [],
+  "tags": [
+    "tarot",
+    "fun",
+    "daily",
+    "readings",
+    "oracle"
+  ],
+  "frontendIdentity": "owner",
+  "dataSchemas": []
+}
