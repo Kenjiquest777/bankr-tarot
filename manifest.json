@@ -3,7 +3,7 @@
   "title": "BANKR Tarot",
   "description": "A cute daily tarot reader. Pulls a three-card spread — your day's luck, your trade strategy, and the token that matches your tarot energy — seeded fresh each day from your wallet. The token card shows a live price pulled from real market data. Every card is illustrated with a hand-drawn Bankr-themed scene.",
   "visibility": "public",
-  "version": 8,
+  "version": 11,
   "permissions": [
     "fetch:http"
   ],
